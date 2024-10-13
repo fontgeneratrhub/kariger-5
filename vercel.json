@@ -1,12 +1,5 @@
 {
-  "routes": [
-    {
-      "src": "/",
-      element: Home(),
-    },
-    {
-      path: '/test',
-    element: Test(),
-    }
-]
+  "redirects": [
+    { "source": "/old-path", "destination": "/new-path", "permanent": true }
+  ]
 }
